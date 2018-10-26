@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>One Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js" onload="initialize(1)"></script>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #3e606f;
+            color: mintcream;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+            background-color: mintcream;
+            width: 100px;
+            height: 25px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <a href="index.html">Menu</a>
+    <br>
+    
+    <div id="playerone"></div>
+    <br>
+    <button onclick="addCard(1)">New card</button>
+
+</body>
+</html>
